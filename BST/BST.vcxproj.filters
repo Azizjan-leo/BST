@@ -32,8 +32,5 @@
     <ClCompile Include="OperationResult.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BSTIterator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

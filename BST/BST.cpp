@@ -1,6 +1,5 @@
 #include <string>
 #include "OperationResult.h"
-#include "BSTIterator.cpp"
 #include "node.h"
 #include "BST.h"
 
