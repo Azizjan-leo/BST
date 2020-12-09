@@ -3,7 +3,8 @@ template <typename T>
 struct node
 {
     T value;
-    node* left, right;
+    node<T>* left;
+    node<T>* right;
     node(T data)
     {
         value = data;

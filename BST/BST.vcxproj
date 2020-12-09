@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BST.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="OperationResult.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BST.h" />
     <ClInclude Include="node.h" />
     <ClInclude Include="OperationResult.h" />
   </ItemGroup>

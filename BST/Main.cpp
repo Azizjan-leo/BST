@@ -10,8 +10,9 @@ int main()
 {
     BST<int>* bst = new BST<int>();
     OperationResult b = bst->insert(1);
+    std::cout << b.getMsg();
     b = bst->show(std::cout);
-    std::cout << "Hello World!\n";
+    std::cout << b.getMsg();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
